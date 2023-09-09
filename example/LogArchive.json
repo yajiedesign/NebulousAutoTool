@@ -1,0 +1,5 @@
+{
+    "ServerName":"ServerName.Attention The expected log file name format is server_$ServerName.log", 
+    "LogDir":"Game Log Dir,like /xxx/yyyy",
+    "LogArchiveDir":"Archive Dir,like /xxx/yyyy"
+}

@@ -1,0 +1,6 @@
+{
+    "ServerIp":"127.0.0.1",
+    "QueryPort":27026,
+    "ServiceName":"systemd service name",
+    "ServerConfigPath":"like /xxx/yyyy"
+}
