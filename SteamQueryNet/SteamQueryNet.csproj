@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Authors>Cem YILMAZ</Authors>
+    <Company>Cem YILMAZ</Company>
+    <Version>1.0.6</Version>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageTags>steam,query,net,steamquery,steamquerynet</PackageTags>
+    <FileVersion>1.0.0.5</FileVersion>
+    <PackageReleaseNotes>https://github.com/cyilcode/SteamQueryNet/CHANGELOG.md</PackageReleaseNotes>
+    <Description>SteamQueryNet is a C# wrapper for Steam Server Queries UDP protocol. It is;
+
+Light
+Dependency free
+Written in .net standard 2.0 so that it works with both .NET framework 4.6+ and core.</Description>
+    <Copyright />
+    <license>https://github.com/cyilcode/SteamQueryNet/blob/master/LICENSE</license>
+    <PackageProjectUrl>https://github.com/cyilcode/SteamQueryNet</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/cyilcode/SteamQueryNet</PackageIconUrl>
+    <RepositoryUrl>https://github.com/cyilcode/SteamQueryNet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+</Project>
